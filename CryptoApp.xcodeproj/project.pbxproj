@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E94EAD3D2AEE7F5D00568982 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94EAD3C2AEE7F5D00568982 /* CoinModel.swift */; };
 		E9CA14A72AEE1D0600076586 /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CA14A62AEE1D0600076586 /* CryptoAppApp.swift */; };
 		E9CA14A92AEE1D0600076586 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CA14A82AEE1D0600076586 /* ContentView.swift */; };
 		E9CA14AE2AEE1D0A00076586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CA14AD2AEE1D0A00076586 /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E94EAD3C2AEE7F5D00568982 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		E9CA14A32AEE1D0600076586 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CA14A62AEE1D0600076586 /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		E9CA14A82AEE1D0600076586 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E94EAD3B2AEE7EF300568982 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E94EAD3C2AEE7F5D00568982 /* CoinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E9CA149A2AEE1D0600076586 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				E9CA14B82AEE233900076586 /* Extensions */,
+				E94EAD3B2AEE7EF300568982 /* Models */,
 				E9CA14BB2AEE296200076586 /* Core */,
 				E9CA14A62AEE1D0600076586 /* CryptoAppApp.swift */,
 				E9CA14A82AEE1D0600076586 /* ContentView.swift */,
@@ -211,6 +222,7 @@
 				E9CA14C42AEE2C5500076586 /* CircleButtonView.swift in Sources */,
 				E9CA14BA2AEE236200076586 /* Color.swift in Sources */,
 				E9CA14C62AEE40E400076586 /* CircleButtonAnimationView.swift in Sources */,
+				E94EAD3D2AEE7F5D00568982 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
