@@ -11,6 +11,7 @@
 		E9CA14A92AEE1D0600076586 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CA14A82AEE1D0600076586 /* ContentView.swift */; };
 		E9CA14AE2AEE1D0A00076586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CA14AD2AEE1D0A00076586 /* Preview Assets.xcassets */; };
 		E9CA14B72AEE20AD00076586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CA14B62AEE20AD00076586 /* Assets.xcassets */; };
+		E9CA14BA2AEE236200076586 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CA14B92AEE236200076586 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E9CA14A82AEE1D0600076586 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9CA14AD2AEE1D0A00076586 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9CA14B62AEE20AD00076586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9CA14B92AEE236200076586 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E9CA14A52AEE1D0600076586 /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				E9CA14B82AEE233900076586 /* Extensions */,
 				E9CA14A62AEE1D0600076586 /* CryptoAppApp.swift */,
 				E9CA14A82AEE1D0600076586 /* ContentView.swift */,
 				E9CA14B62AEE20AD00076586 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				E9CA14AD2AEE1D0A00076586 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9CA14B82AEE233900076586 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9CA14B92AEE236200076586 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				E9CA14A92AEE1D0600076586 /* ContentView.swift in Sources */,
 				E9CA14A72AEE1D0600076586 /* CryptoAppApp.swift in Sources */,
+				E9CA14BA2AEE236200076586 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
