@@ -54,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				E9CA14B82AEE233900076586 /* Extensions */,
+				E9CA14BB2AEE296200076586 /* Core */,
 				E9CA14A62AEE1D0600076586 /* CryptoAppApp.swift */,
 				E9CA14A82AEE1D0600076586 /* ContentView.swift */,
 				E9CA14B62AEE20AD00076586 /* Assets.xcassets */,
@@ -76,6 +77,13 @@
 				E9CA14B92AEE236200076586 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E9CA14BB2AEE296200076586 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
