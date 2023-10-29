@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		E9CA14A72AEE1D0600076586 /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CA14A62AEE1D0600076586 /* CryptoAppApp.swift */; };
 		E9CA14A92AEE1D0600076586 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CA14A82AEE1D0600076586 /* ContentView.swift */; };
-		E9CA14AB2AEE1D0A00076586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CA14AA2AEE1D0A00076586 /* Assets.xcassets */; };
 		E9CA14AE2AEE1D0A00076586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CA14AD2AEE1D0A00076586 /* Preview Assets.xcassets */; };
+		E9CA14B72AEE20AD00076586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CA14B62AEE20AD00076586 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9CA14A32AEE1D0600076586 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CA14A62AEE1D0600076586 /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		E9CA14A82AEE1D0600076586 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E9CA14AA2AEE1D0A00076586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9CA14AD2AEE1D0A00076586 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9CA14B62AEE20AD00076586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				E9CA14A62AEE1D0600076586 /* CryptoAppApp.swift */,
 				E9CA14A82AEE1D0600076586 /* ContentView.swift */,
-				E9CA14AA2AEE1D0A00076586 /* Assets.xcassets */,
+				E9CA14B62AEE20AD00076586 /* Assets.xcassets */,
 				E9CA14AC2AEE1D0A00076586 /* Preview Content */,
 			);
 			path = CryptoApp;
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9CA14B72AEE20AD00076586 /* Assets.xcassets in Resources */,
 				E9CA14AE2AEE1D0A00076586 /* Preview Assets.xcassets in Resources */,
-				E9CA14AB2AEE1D0A00076586 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
