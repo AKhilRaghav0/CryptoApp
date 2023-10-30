@@ -16,6 +16,9 @@ class DeveloperPreview {
     static let instance  = DeveloperPreview()
     init() {}
     
+    let HomeVM = HomeViewModel()
+    
+    
     let coin = CoinModel(
         id: "bitcoin",
         symbol: "btc",
